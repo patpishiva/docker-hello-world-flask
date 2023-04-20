@@ -17,6 +17,6 @@ jobs:
         - name: Azure Pipelines Action
           uses: Azure/pipelines@v1
           with:
-            azure-devops-project-url: https://shivapatpi.visualstudio.com/acrconnection
+            azure-devops-project-url: https://dev.azure.com/shivapatpi/acrconnection
             azure-pipeline-name: 'automationpipeline'
             azure-devops-token: ${{ secrets.AZURE_DEVOPS_TOKEN }}
